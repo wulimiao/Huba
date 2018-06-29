@@ -1,0 +1,47 @@
+.fix{
+	width: 500px;
+	height: 300px;
+	background-color: rgba(0,255,255,0.9);
+	border-radius: 10px;
+	position: fixed;
+	top: 300px;
+	left: 600px;
+	display: none;
+	z-index: 999;
+}
+#mask{
+	position: fixed;
+	top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 99;
+	display: none;
+}
+.miao{
+	color: gray;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 13px;
+	margin-left: 150px;
+}
+.fix ul li{
+	height: 30px;
+	margin-left: 30px;
+	font-size: 20px;
+	/*border: 1px solid yellow;*/
+}
+.fix ul li span{
+	color: white;
+}
+.allmiao{
+	width: 200px;
+	height:50px;
+	margin-left: 140px;
+	margin-top: 10px;
+	font-size: 18px;
+	background-color: white;
+	border-radius: 9px;
+	border: none;
+}
